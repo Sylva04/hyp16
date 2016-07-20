@@ -84,8 +84,8 @@ function loadMoreClicked(){
             {
             	toSend+="<center><h2>"+response[i].Marca+"<br>"+response[i].Modello+"</h2><br>";
                 toSend+="<img src=\""+response[i].IMG;
-                toSend+=".png\" class=\"device\" height=\"300\" width=\"300\"></center><br><g>Descrizione</g> :"+response[i].Descrizione+"<br><g>Tech:</g> "+response[i].Tech;
-              	toSend+="<br><g>Prezzo</g>:"+response[i].Prezzo+"<br>";
+                toSend+=".png\" class=\"device\" height=\"300\" width=\"300\"></center><br><b>Descrizione</b> :"+response[i].Descrizione+"<br><b>Tech:</b> "+response[i].Tech;
+              	toSend+="<br><b>Prezzo</b>:"+response[i].Prezzo+"<br>";
                 if(response[i].SL1==1)
                 	 toSend+="<a href=\"http://hyp16.altervista.org/html/slHome.html#tv\"><img src=\""+sl1+".png\" class=\"device\"></a>";
                 if(response[i].SL2==1)
